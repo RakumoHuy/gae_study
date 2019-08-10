@@ -1,0 +1,11 @@
+application: gaelearn
+version: 1
+runtime: python
+api_version: 1
+handlers:
+- url: /see_time
+  script: seetime.py
+- url: /hello
+  script: hello.py
+- url: /do_log
+  script: log.py
